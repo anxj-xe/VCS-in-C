@@ -35,17 +35,5 @@ int main(int argc,char* argv[]){
         printf("Unknown Command: %s", argv[1]);
     }
 
-    // else{
-    //     if(strcmp(argv[1],"init") == 0){
-    //         if(mkdir(".vcs")==0){
-    //             printf("Initializing empty repository...");
-    //         }else{
-    //             printf("Repository already exists or error occured!!");
-    //         }
-    //     }else{
-    //         printf("Unknown Command: %s", argv[1]);
-    //     }
-    // }
-
     return 0;
 }
